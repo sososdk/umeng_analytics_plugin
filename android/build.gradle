@@ -5,7 +5,6 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven { url 'https://dl.bintray.com/umsdk/release' }
     }
 
     dependencies {
@@ -17,7 +16,7 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
-        maven { url 'https://dl.bintray.com/umsdk/release' }
+        maven { url 'https://repo1.maven.org/maven2/' }
     }
 }
 
@@ -36,6 +35,6 @@ android {
 }
 
 dependencies {
-    api 'com.umeng.umsdk:analytics:8.1.4'
-    api 'com.umeng.umsdk:common:2.1.8'
+    api 'com.umeng.umsdk:common:9.3.8'
+    api 'com.umeng.umsdk:asms:1.2.2'
 }
